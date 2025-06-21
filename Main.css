@@ -1,0 +1,194 @@
+
+.Animate_OS{
+    animation-name: ANO;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes ANO{
+
+    33%{
+
+        color: red;
+        text-decoration: underline;
+    }
+    50%{
+        color: green;
+        text-decoration: dotted;
+    }
+    100%{
+        color: blue;
+        text-decoration: underline;
+    }
+}
+
+.Mainn{
+
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 5%;
+    margin-top: 12%;
+
+    animation-name: MoveImage;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1s;
+    animation-direction: alternate;
+    
+}
+@keyframes MoveImage{
+
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+#cardsection{
+
+   width: 100%; 
+   padding: 2rem; 
+   display: flex; 
+   flex-wrap: wrap; 
+   justify-content: center; 
+   gap: 2rem;
+   background-color:  rgba(0, 0, 0, 0.495);
+    
+}
+#SoldiersCard{
+
+    width: 100%; 
+    padding: 2rem; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 2rem;
+    background-color:  rgba(0, 0, 0, 0.495);
+}
+#All_About_OS{
+    width: 100%; 
+    padding: 2rem; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 2rem;
+    background-color:  rgba(0, 0, 0, 0.495);
+}
+#DES{
+    width: 100%; 
+    padding: 2rem; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 2rem;
+    background-color:  rgba(0, 0, 0, 0.495);
+}
+#Now_About_OS{
+    width: 100%; 
+    padding: 2rem; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 2rem;
+    background-color:  rgba(0, 0, 0, 0.495);
+}
+#Contact_Section{
+    width: 100%; 
+    padding: 2rem; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 2rem;
+    background-color:  rgba(0, 0, 0, 0.495);
+
+}
+#Copyright_Section{
+    width: 100%; 
+    padding: 2rem; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 2rem;
+    background-color:  rgba(0, 0, 0, 0.495);
+
+}
+#MainImagesection{
+    width: 100%; 
+    padding: 2rem; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 2rem;
+    border-radius: 10%;
+    
+}
+#MainImagesection:hover{
+    transform: scale(1.1);
+}
+.image_Style{
+    margin-top: 2%;
+    border-radius: 20%;
+}
+.card1{
+
+    width: fit-content;
+    margin-left: 3px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.165);
+    border: 0.5px solid white;
+    border-radius: 20%;
+    display: inline-block;
+
+    animation-name: RotateCard;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1s;
+    animation-direction: alternate;
+}
+.card1:hover{
+
+    transform: scale(1.1);
+}
+@keyframes RotateCard{
+
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.card{
+
+    width: fit-content;
+    margin-left: 3px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.165);
+    border: 0.5px solid white;
+    border-radius: 20%;
+    display: inline-block;
+
+    animation-name: RotateCard;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1s;
+    animation-direction: alternate;
+}
+.card:hover{
+
+    transform: scale(1.1);
+}
+
+#Make_Change_Color{
+
+   color: red;
+}
+#Make_Change_Color:hover{
+
+    color: green;;
+}
